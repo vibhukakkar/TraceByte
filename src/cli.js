@@ -1,4 +1,4 @@
-
+#!/usr/bin/env node
 const { scanRoutes } = require("./scanner/routeScanner");
 const { analyzeMiddleware } = require("./analyzer/middlewareAnalyzer");
 const { runRequests } = require("./runner/requestRunner");
